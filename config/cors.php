@@ -20,12 +20,12 @@ return [
     'allowed_methods' => ['*'],
 
     'allowed_origins' => [
-        'http://localhost:9000',
-        'http://127.0.0.1:9000',
-        'http://localhost:9001',
-        'http://localhost:8080',
+       /// 'http://localhost:9000',
+        //'http://127.0.0.1:9000',
+        //'http://localhost:9001',
+        //'http://localhost:8080',
+        'https://edulinkkmoz.netlify.app',
     ],
-
     'allowed_origins_patterns' => [],
 
     'allowed_headers' => ['*'],
